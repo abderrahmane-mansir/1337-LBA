@@ -859,7 +859,7 @@
    ============================================================ */
 
 const TEAMS = [
-  { id:"far",  name:"Force Armée Royale",   code:"FAR", color:"#ffffff", logo:"images/far.png" },
+  { id:"pol",  name:"Lpoolers",   code:"POL", color:"#ffffff", logo:"images/pool.png" },
   { id:"nightwatch",   name:"The Night's Watch",    code:"TNW", color:"#99bcce", logo:"images/nightwatch.png" },
   { id:"lakers",   name:"Los Angeles Lakers",  code:"LAL", color:"#fdb927", logo:"images/lakers.jpg" },
   { id:"hoopers", name:"Hoopers",    code:"HOP", color:"#fdb717", logo:"images/hoopers.png" },
@@ -910,6 +910,7 @@ const TEAM_MEMBERS = {
     "Teams/Positive energy/aalimous.jpg",
     "Teams/Positive energy/amsaq.jpeg",
     "Teams/Positive energy/frukundo.jpg",
+    "Teams/Positive energy/ahamma-t.jpg",
   ],
   phoenix: [
     "Teams/Phoenix/kanahiz.jpg",
@@ -923,7 +924,7 @@ const TEAM_MEMBERS = {
     "Teams/TRD/omaezzem.jpg",
     "Teams/TRD/sidrissi.jpg",
   ],
-  far: [
+  pol: [
     "Teams/far/amansir.jpg",
     "Teams/far/amaghafr.jpg",
     "Teams/far/outaouss.jpg",
@@ -933,20 +934,24 @@ const TEAM_MEMBERS = {
   ],
   minwolfs: [
     "Teams/timberwolves/aferryat.jpg",
-    "Teams/timberwolves/ahamma-t.jpg",
     "Teams/timberwolves/rallali.jpg",
     "Teams/timberwolves/damchich.jpg",
     "Teams/timberwolves/mrasmouk.jpg",
+    "Teams/timberwolves/abgreou.jpg",
   ],
 };
 
 const MATCHES = [
-  { round:"Matchday 1", teamA:"lakers",  teamB:"bulls",   scoreA:null, scoreB:null, status:"upcoming", date:"Tue, Jul 21", time:"8:30 PM", venue:"Dorms Court" },
-  { round:"Matchday 1", teamA:"phoenix",   teamB:"minwolfs",  scoreA:null, scoreB:null, status:"upcoming", date:"Tue, Jul 21", time:"9:00 PM", venue:"Dorms Court" },
-  { round:"Matchday 1", teamA:"nightwatch",   teamB:"hoopers",    scoreA:null, scoreB:null, status:"upcoming", date:"Tue, Jul 21", time:"10:30 PM", venue:"Dorms Court" },
+  { round:"Matchday 1", teamA:"lakers",  teamB:"bulls",   scoreA:7, scoreB:6, status:"final", date:"Tue, Jul 21", time:"8:30 PM", venue:"Dorms Court" },
+  { round:"Matchday 1", teamA:"phoenix",   teamB:"minwolfs",  scoreA:5, scoreB:0, status:"final", date:"Tue, Jul 21", time:"9:00 PM", venue:"Dorms Court" },
+  { round:"Matchday 1", teamA:"nightwatch",   teamB:"hoopers",    scoreA:10, scoreB:3, status:"final", date:"Tue, Jul 21", time:"10:30 PM", venue:"Dorms Court" },
 
-  { round:"Matchday 2", teamA:"trd",   teamB:"teamhas",    scoreA:null, scoreB:null, status:"upcoming", date:"Wed, Jul 22", time:"8:30 PM", venue:"Dorms Court" },
-  { round:"Matchday 2", teamA:"posenergy",  teamB:"far",    scoreA:null, scoreB:null, status:"upcoming", date:"Wed, Jul 22", time:"9:00 PM", venue:"Dorms Court" },
+  { round:"Matchday 2", teamA:"trd",   teamB:"teamhas",    scoreA:null, scoreB:null, status:"live", date:"Wed, Jul 22", time:"8:30 PM", venue:"Dorms Court" },
+  { round:"Matchday 2", teamA:"posenergy",  teamB:"pol",    scoreA:null, scoreB:null, status:"live", date:"Wed, Jul 22", time:"9:00 PM", venue:"Dorms Court" },
+
+  { round:"Matchday 3", teamA:"hoopers",   teamB:"phoenix",    scoreA:null, scoreB:null, status:"upcoming", date:"Wed, Jul 22", time:"8:30 PM", venue:"Dorms Court" },
+  { round:"Matchday 3", teamA:"nightwatch",  teamB:"teamhas",    scoreA:null, scoreB:null, status:"upcoming", date:"Wed, Jul 22", time:"9:00 PM", venue:"Dorms Court" },
+
 ];
 
 /* ============================================================
